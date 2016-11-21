@@ -17,7 +17,7 @@ function next(){
 	document.getElementById('start').style.display = "none";
 	console.log('next');
 	document.getElementById('h').style.display = "none";
-	document.body.style.background = "rgb(136, 162, 69) no-repeat url( 'troll battle background.jpg ')";
+	document.body.style.background = "rgb(136, 162, 69) no-repeat url( 'troll battle background.JPG ')";
 	document.body.style.backgroundSize = "1400px 700px";
 	document.getElementById('tekst1').style.display = "none";
 	document.getElementById('tekst2').style.display = "inline";

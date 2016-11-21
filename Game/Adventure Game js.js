@@ -40,7 +40,7 @@ function fight() {
 }
 
 function flee() {
-	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'Game over.jpg ')";
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
 	document.getElementById('tekst2').style.display = "none";
 	document.getElementById('fight').style.display = "none";

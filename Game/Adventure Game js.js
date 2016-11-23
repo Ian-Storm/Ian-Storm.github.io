@@ -170,7 +170,7 @@ function next9 () {
 }
 
 function fail1() {
-	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'Game over.jpg ')";
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
 	console.log('game over');
 	document.getElementById('try_again').style.display = "inline";
@@ -181,7 +181,7 @@ function fail1() {
 }
 
 function fail3() {
-	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'Game over.jpg ')";
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
 	console.log('game over');
 	document.getElementById('try_again').style.display = "inline";
@@ -192,7 +192,7 @@ function fail3() {
 }
 
 function fail4() {
-	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'Game over.jpg ')";
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
 	console.log('game over');
 	document.getElementById('try_again').style.display = "inline";
@@ -203,7 +203,7 @@ function fail4() {
 }
 
 function fail5() {
-	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'Game over.jpg ')";
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
 	console.log('game over');
 	document.getElementById('try_again').style.display = "inline";

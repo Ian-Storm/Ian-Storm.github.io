@@ -9,12 +9,12 @@ body {
 h1 {
 	color: orange;
 	position: absolute;
-	right: 200px;
+	left: 950px;
 }
 
 #start {
 	position: absolute;
-	bottom: 33px;
+	top: 590px;
 	left: 615px;
 	background-color: rgba(0, 0, 0, 0);
 	border-style: none;
@@ -89,7 +89,7 @@ p {
 #information {
 	display: inline;
 	position: absolute;
-	bottom: 10px;
+	top: 620px;
 	left: 10px;
 	color: rgb(203, 57, 32);
 	background-color: rgba(0, 0, 0, 0);
@@ -160,7 +160,7 @@ p {
 	color: orange;
 	display: inline;
 	position: absolute;
-	right: 200px;
+	left: 1110px;
 }
 
 #parents_home {

@@ -124,6 +124,7 @@ function next4 () {
 	document.getElementById('specialist').style.display = "inline";
 	document.getElementById('next5').style.display = "inline";
 	document.getElementById('fail5').style.display = "none";
+	document.getElementById('fail6').style.display = "inline";
 }
 
 function next5 () {
@@ -133,6 +134,7 @@ function next5 () {
 	document.getElementById('next5').style.display = "none";
 	document.getElementById('mangroup').style.display = "inline"; 
 	document.getElementById('next6').style.display = "inline"; 
+	document.getElementById('fail6').style.display = "none";
 }
 
 function next6 () {
@@ -211,4 +213,11 @@ function fail5() {
 	document.getElementById('next4').style.display = "none";
 	document.getElementById('fail5').style.display = "none";
 	document.getElementById('tip5').style.display = "inline";
+}
+
+function fail6() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('game over');
+	document.getElementById('try_again').style.display = "inline";
 }

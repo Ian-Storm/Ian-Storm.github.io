@@ -205,8 +205,8 @@ p {
 	border-style: solid;
 	border-color: orange;
 	font-size: 26px;
-	top: 50px;
-	left: 10px;
+	top: 300px;
+	left: 1100px;
 	cursor: pointer;
 }
 
@@ -347,4 +347,17 @@ p {
 
 #tip5 {
 	color:white;
+}
+
+#fail6 {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	color: orange;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: orange;
+	font-size: 26px;
+	cursor: pointer;
 }

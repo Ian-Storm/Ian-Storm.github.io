@@ -206,7 +206,7 @@ p {
 	border-color: orange;
 	font-size: 26px;
 	top: 300px;
-	left: 1100px;
+	left: 1150px;
 	cursor: pointer;
 }
 
@@ -222,8 +222,8 @@ p {
 	border-style: solid;
 	border-color: rgb(237, 19, 7);
 	font-size: 26px;
-	top: 100px;
-	left: 10px;
+	top: 300px;
+	left: 1150px;
 	cursor: pointer;
 }
 
@@ -244,17 +244,13 @@ p {
 	cursor: pointer;
 }
 
-#tomagix {
-
-}
-
 #next8 {
-	color: rgb(0, 255, 255);
+	color: black;
 	display: none;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0);
 	border-style: solid;
-	border-color: rgb(0, 255, 255);
+	border-color: black;
 	font-size: 26px;
 	top: 75px;
 	left: 10px;
@@ -262,16 +258,16 @@ p {
 }
 
 #insidemagix {
-
+	color: rgb(60, 177, 183);
 }
 
 #next9 {
-	color: rgb(0, 255, 255);
+	color: rgb(60, 177, 183);
 	display: none;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0);
 	border-style: solid;
-	border-color: rgb(0, 255, 255);
+	border-color: rgb(60, 177, 183);
 	font-size: 26px;
 	top: 75px;
 	left: 10px;
@@ -346,7 +342,7 @@ p {
 }
 
 #tip5 {
-	color:white;
+	color: white;
 }
 
 #fail6 {
@@ -360,4 +356,25 @@ p {
 	border-color: orange;
 	font-size: 26px;
 	cursor: pointer;
+}
+
+#tip6 {
+	color: white;
+}
+
+#fail7 {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	color: rgb(237, 19, 7);
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: rgb(237, 19, 7);
+	font-size: 26px;
+	cursor: pointer;
+}
+
+#tip7 {
+	color: white;
 }

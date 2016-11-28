@@ -128,26 +128,28 @@ function next4 () {
 }
 
 function next5 () {
-	document.body.style.background = "rgb(0, 31, 56) no-repeat url( 'specialists.jpg ')";
+	document.body.style.background = "rgb(147, 177, 249) no-repeat url( 'specialists.jpg ')";
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('specialist').style.display = "none";
 	document.getElementById('next5').style.display = "none";
 	document.getElementById('mangroup').style.display = "inline"; 
 	document.getElementById('next6').style.display = "inline"; 
 	document.getElementById('fail6').style.display = "none";
+	document.getElementById('fail7').style.display = "inline";
 }
 
 function next6 () {
-	document.body.style.background = "rgb(0, 31, 56) no-repeat url( 'bloomandstella.jpg ')";
+	document.body.style.background = "rgb(6, 15, 30) no-repeat url( 'bloomandstella.jpg ')";
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('mangroup').style.display = "none";
 	document.getElementById('next6').style.display = "none";
 	document.getElementById('explain').style.display = "inline";
 	document.getElementById('next7').style.display = "inline";
+	document.getElementById('fail7').style.display = "none";
 }
 
 function next7 () {
-	document.body.style.background = "rgb(0, 31, 56) no-repeat url( 'parents.jpg ')";
+	document.body.style.background = "rgb(245, 177, 116) no-repeat url( 'parents.jpg ')";
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('explain').style.display = "none";
 	document.getElementById('next7').style.display = "none";
@@ -156,7 +158,7 @@ function next7 () {
 }
 
 function next8 () {
-	document.body.style.background = "rgb(0, 31, 56) no-repeat url( 'magix.jpg ')";
+	document.body.style.background = "rgb(50, 100, 47) no-repeat url( 'magix.jpg ')";
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('tomagix').style.display = "none";
 	document.getElementById('next8').style.display = "none";
@@ -165,7 +167,7 @@ function next8 () {
 }
 
 function next9 () {
-	document.body.style.background = "rgb(0, 31, 56) no-repeat url( 'aftiteling.jpg ')";
+	document.body.style.background = "rgb(190, 220, 108) no-repeat url( 'aftiteling.jpg ')";
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('insidemagix').style.display = "none";
 	document.getElementById('next9').style.display = "none";
@@ -220,4 +222,19 @@ function fail6() {
 	document.body.style.backgroundSize = "1366px 768px";
 	console.log('game over');
 	document.getElementById('try_again').style.display = "inline";
+	document.getElementById('specialist').style.display = "none";
+	document.getElementById('next5').style.display = "none";
+	document.getElementById('fail6').style.display = "none";
+	document.getElementById('tip6').style.display = "inline";
+}
+
+function fail7() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('game over');
+	document.getElementById('try_again').style.display = "inline";
+	document.getElementById('mangroup').style.display = "none";
+	document.getElementById('next6').style.display = "none";
+	document.getElementById('fail7').style.display = "none";
+	document.getElementById('tip7').style.display = "inline";
 }

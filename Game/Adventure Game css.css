@@ -239,8 +239,8 @@ p {
 	border-style: solid;
 	border-color: rgb(0, 255, 255);
 	font-size: 26px;
-	top: 75px;
-	left: 10px;
+	top: 300px;
+	left: 50px;
 	cursor: pointer;
 }
 
@@ -252,8 +252,8 @@ p {
 	border-style: solid;
 	border-color: black;
 	font-size: 26px;
-	top: 75px;
-	left: 10px;
+	top: 300px;
+	left: 1100px;
 	cursor: pointer;
 }
 
@@ -269,8 +269,21 @@ p {
 	border-style: solid;
 	border-color: rgb(60, 177, 183);
 	font-size: 26px;
-	top: 75px;
-	left: 10px;
+	top: 300px;
+	left: 1100px;
+	cursor: pointer;
+}
+
+#next10 {
+	color: rgb(60, 177, 183);
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: rgb(60, 177, 183);
+	font-size: 26px;
+	top: 300px;
+	left: 50px;
 	cursor: pointer;
 }
 
@@ -376,5 +389,39 @@ p {
 }
 
 #tip7 {
+	color: white;
+}
+
+#fail8 {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 1100px;
+	color: rgb(0, 255, 255);
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: rgb(0, 255, 255);
+	font-size: 26px;
+	cursor: pointer;
+}
+
+#tip8 {
+	color: white;
+}
+
+#fail9 {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	color: black;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	font-size: 26px;
+	cursor: pointer;
+}
+
+#tip9 {
 	color: white;
 }

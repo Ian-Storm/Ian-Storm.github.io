@@ -146,6 +146,7 @@ function next6 () {
 	document.getElementById('explain').style.display = "inline";
 	document.getElementById('next7').style.display = "inline";
 	document.getElementById('fail7').style.display = "none";
+	document.getElementById('fail8').style.display = "inline";
 }
 
 function next7 () {
@@ -155,7 +156,10 @@ function next7 () {
 	document.getElementById('next7').style.display = "none";
 	document.getElementById('tomagix').style.display = "inline";
 	document.getElementById('next8').style.display = "inline";
+	document.getElementById('fail8').style.display = "none";
+	document.getElementById('fail9').style.display = "inline";
 }
+
 
 function next8 () {
 	document.body.style.background = "rgb(50, 100, 47) no-repeat url( 'magix.jpg ')";
@@ -164,6 +168,8 @@ function next8 () {
 	document.getElementById('next8').style.display = "none";
 	document.getElementById('insidemagix').style.display = "inline";
 	document.getElementById('next9').style.display = "inline";
+	document.getElementById('fail9').style.display = "none";
+	document.getElementById('next10').style.display = "inline";
 }
 
 function next9 () {
@@ -171,6 +177,15 @@ function next9 () {
 	document.body.style.backgroundSize = "1366px 800px";
 	document.getElementById('insidemagix').style.display = "none";
 	document.getElementById('next9').style.display = "none";
+	document.getElementById('next10').style.display = "none";
+}
+
+function next10 () {
+	document.body.style.background = "rgb(190, 220, 108) no-repeat url( 'aftiteling.jpg ')";
+	document.body.style.backgroundSize = "1366px 800px";
+	document.getElementById('insidemagix').style.display = "none";
+	document.getElementById('next9').style.display = "none";
+	document.getElementById('next10').style.display = "none";
 }
 
 function fail1() {
@@ -237,4 +252,26 @@ function fail7() {
 	document.getElementById('next6').style.display = "none";
 	document.getElementById('fail7').style.display = "none";
 	document.getElementById('tip7').style.display = "inline";
+}
+
+function fail8() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('game over');
+	document.getElementById('try_again').style.display = "inline";
+	document.getElementById('explain').style.display = "none";
+	document.getElementById('next7').style.display = "none";
+	document.getElementById('fail8').style.display = "none";
+	document.getElementById('tip8').style.display = "inline";
+}
+
+function fail9() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'game over.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('game over');
+	document.getElementById('try_again').style.display = "inline";
+	document.getElementById('tomagix').style.display = "none";
+	document.getElementById('next8').style.display = "none";
+	document.getElementById('fail9').style.display = "none";
+	document.getElementById('tip9').style.display = "inline";
 }

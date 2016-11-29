@@ -425,3 +425,37 @@ p {
 #tip9 {
 	color: white;
 }
+
+#ending1 {
+	color: rgb(12, 142, 211);
+}
+
+#ending2 {
+	color: rgb(12, 142, 211);
+}
+
+#next11 {
+	color: rgb(12, 142, 211);
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: rgb(12, 142, 211);
+	font-size: 26px;
+	top: 50px;
+	left: 10px;
+	cursor: pointer;
+}
+
+#next12 {
+	color: rgb(12, 142, 211);
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-color: rgb(12, 142, 211);
+	font-size: 26px;
+	top: 50px;
+	left: 10px;
+	cursor: pointer;
+}

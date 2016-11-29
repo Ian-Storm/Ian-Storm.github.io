@@ -15,8 +15,8 @@ function start(){
 
 function next(){
 	document.getElementById('start').style.display = "none";
-	console.log('next');
 	document.getElementById('h').style.display = "none";
+	console.log('check it out');
 	document.body.style.background = "rgb(136, 162, 69) no-repeat url( 'troll battle background.JPG ')";
 	document.body.style.backgroundSize = "1400px 700px";
 	document.getElementById('tekst1').style.display = "none";
@@ -64,6 +64,7 @@ function stick() {
 function information() {
 	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'drakenvlam.jpg ')";
 	document.body.style.backgroundSize = "1366px 768px";
+	console.log('info');
 	document.getElementById('start').style.display = "none";
 	document.getElementById('h').style.display = "none";
 	document.getElementById('information').style.display = "none";
@@ -178,6 +179,8 @@ function next9 () {
 	document.getElementById('insidemagix').style.display = "none";
 	document.getElementById('next9').style.display = "none";
 	document.getElementById('next10').style.display = "none";
+	document.getElementById('ending1').style.display = "inline";
+	document.getElementById('next11').style.display = "inline";
 }
 
 function next10 () {
@@ -186,6 +189,8 @@ function next10 () {
 	document.getElementById('insidemagix').style.display = "none";
 	document.getElementById('next9').style.display = "none";
 	document.getElementById('next10').style.display = "none";
+	document.getElementById('ending2').style.display = "inline";
+	document.getElementById('next12').style.display = "inline";
 }
 
 function fail1() {
@@ -274,4 +279,22 @@ function fail9() {
 	document.getElementById('next8').style.display = "none";
 	document.getElementById('fail9').style.display = "none";
 	document.getElementById('tip9').style.display = "inline";
+}
+
+function next11() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'ending.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('fake ending');
+	document.getElementById('ending1').style.display = "none";
+	document.getElementById('next11').style.display = "none";
+	document.getElementById('try_again').style.display = "inline";
+}
+
+function next12() {
+	document.body.style.background = "rgb(0, 0, 0) no-repeat url( 'ending.jpg ')";
+	document.body.style.backgroundSize = "1366px 768px";
+	console.log('real ending');
+	document.getElementById('ending2').style.display = "none";
+	document.getElementById('next12').style.display = "none";
+	document.getElementById('try_again').style.display = "inline";
 }

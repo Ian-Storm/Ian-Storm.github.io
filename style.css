@@ -1,15 +1,36 @@
 body{
-	background-color: #89f51f;
-	width:100%;
+	background:url(hack.jpg); 
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
 }
 
 section{
 	color: #2f2f2f;
-	background-color: orange;
-	height: 375px;
-	width: 375px;
+	background-color: none;
+	height: 250px;
+	width: 250px;
 	display: inline-block;
-	margin-bottom: 40px;
-	margin-left: 40px;
 	text-align: center;
+	margin: 10px 10px 10px 10px;
+	padding-top: 10px;
+	border: 1px black solid;
+}
+
+.vak{
+	height: 100%;
+	width: 850px;
+	border: none;
+}
+
+.block_1{
+	background:url(ian.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+
+.block_2{
+	background:url(cv.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
 }

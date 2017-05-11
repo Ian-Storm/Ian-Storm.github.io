@@ -1,5 +1,14 @@
+body{
+	background-color: #89f51f;
+}
 
-body {background-color: Limegreen;}
-
-h1 {color: red;text-align;}
-p {font-family: arial;font-size: 18px;}
+section{
+	color: #2f2f2f;
+	background-color: orange;
+	height: 375px;
+	width: 375px;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	text-align: center;
+}

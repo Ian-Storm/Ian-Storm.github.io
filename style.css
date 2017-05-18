@@ -1,5 +1,5 @@
 body{
-	background:url(hack.jpg); 
+	background:url(images/hack.jpg); 
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
@@ -24,61 +24,61 @@ section{
 }
 
 .block_1{
-	background:url(ian.jpg);
+	background:url(images/ian.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;  
 }
 
 .block_2{
-	background:url(cv.jpg);
+	background:url(images/cv.jpg);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_3{
-	background:url(winxclub.jpg);
+	background:url(images/winxclub.jpg);
 	background-repeat: no-repeat;
 
 }
 
 .block_4{
-	background:url(mastermind.png);
+	background:url(images/mastermind.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_5{
-	background:url(calculator.png);
+	background:url(images/calculator.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_6{
-	background:url(layout.png);
+	background:url(images/layout.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_7{
-	background:url(handy.png);
+	background:url(images/handy.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_8{
-	background:url(recepten.png);
+	background:url(images/recepten.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_9{
-	background:url(devloot.png);
+	background:url(images/devloot.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
 .block_10{
-	background:url(grid.png);
+	background:url(images/grid.png);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }

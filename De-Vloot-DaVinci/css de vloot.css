@@ -1,0 +1,113 @@
+body
+{
+	background-image: url("bg.png");
+	background-repeat: repeat-x;
+	font-family: sans-serif;
+}
+
+img
+{
+	float: left;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+header
+{
+	background-image: url("header.jpg");
+	background-repeat: no-repeat;
+	height: 267px;
+	margin-top: -20px;
+	margin-left: 267px;
+}
+
+ul
+{
+	text-decoration: none;
+	display: inline-block;
+	word-spacing: 20px;
+	margin-top: 165px;
+	color: white;
+	margin-left: -20px;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	color: white;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #A9D5D4;
+}
+
+.peen
+{
+	margin-top: -30px;
+	margin-left: 20px;
+}
+
+.ptwee
+{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+} 
+
+main
+{
+	width: 800px;
+	background-color: white;
+	margin-top: -20px;
+	margin-left: 267px;
+}
+
+h1
+{
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+h2
+{
+	margin-left: 20px;	
+	padding-top: 20px;
+}
+
+.float-right
+{
+	float:right;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	margin-left: 20px;
+}
+
+.left
+{
+	padding-top: 20px;
+}
+
+.pdrie
+{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.pvier
+{
+	margin-top: -20px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.right
+{
+	float:right;
+	margin-bottom: -10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}

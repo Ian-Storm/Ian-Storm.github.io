@@ -1,0 +1,102 @@
+body {
+			background-image: url(bg.png);
+			font-family: sans-serif;
+		}
+		
+		#frame 
+		{
+			background-color: rgba(255,200,200,0.3);
+
+			margin-top: 10px;
+			width: 1010px;
+			height: 605px;
+			margin-left:auto;
+			margin-right:auto;
+			padding-right: 10px;
+		}
+		
+		header nav ul 
+		{
+			list-style-type: none;
+			background-color: rgba(255,255,200,0.3);
+
+			text-align: left;
+			margin-left: 10px;
+			padding: 10px;
+			padding-top: 15px;
+		}
+		
+		#content 
+		{
+			display: flex;
+			flex-direction: row;
+			margin-top: 10px;
+
+		}
+		
+		nav li 
+		{
+			display: inline;
+			padding-top: 15px;
+			
+			padding-right: 10px;
+		}
+		
+		nav li a 
+		{
+			font-weight: bold;
+			color:black;
+			text-decoration:none;
+		}
+		
+		main
+		{
+			border: 1px black solid;
+			background-color: rgba(200,200,255,0.3);
+           	
+           	height: 415px;
+			width: 660px;
+			padding-top: 10px;
+			padding-left: 10px;
+			margin-left: 10px;
+			padding-right: 10px;
+			margin-bottom: 10px;
+		}
+		
+		aside
+		{
+			border: 1px black solid;
+			background-color: rgba(200,255,200,0.3);
+
+			width: 320px;
+			padding: 10px;
+			height: 405px;
+		}
+		
+		body article 
+		{
+			background-color: rgba(200,200,200,0.6);
+		}
+		
+		header 
+		{
+			margin-top: 25px;
+			padding-top: 10px;
+			text-align: center;
+			
+		}
+		
+		footer 
+		{
+			background-color: rgba(255,255,200,0.3);
+
+			margin-left: 10px;
+			padding-left: 475px;
+			font-weight: bold;
+			margin-top: -10px;
+		}
+
+		p
+		{
+			margin-top: 35px;
+		}

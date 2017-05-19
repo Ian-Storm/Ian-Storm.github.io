@@ -1,7 +1,7 @@
 h1 {
 	margin: -8px;
 	color: white;
-	background-color: limegreen;
+	background-color: none;
 	align-items: flex-start;
 }
 
@@ -23,8 +23,10 @@ nav ul {
 }
 
 body {
-	background-color: black;
-}
+	background:url(Videogames.gif); 
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; }
 
 p {
 	color: white;
@@ -37,21 +39,20 @@ h2 {
 }
 
 .Undertale {
-	margin-left: -60px;
-	margin-bottom: -60px;
 	align-items: flex-start;
 }
 
 .Down {
-	text-align: right;
-	background-color: limegreen;
-	align-items: flex-start;
+	float: bottom;
 }
 
 .p {
-	width: 650px;
+	width: 550px;
 	color: lime;
 	align-items: flex-start;
+	background-color: black;
+	border: 1px solid green;
+	margin-top: -4px;
 }
 
 .M1, .MA1, .U1, .I1 {
@@ -97,4 +98,12 @@ h2 {
 .M9, .MA9, .U9, .I9 {
 	color: lime;
 	align-items: flex-start;
+}
+
+section {
+	width: 850px;
+}
+
+.Mario {
+	background-color: black;
 }

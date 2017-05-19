@@ -1,6 +1,9 @@
 
 body {
-	background-color: Limegreen;
+	background:url(tuin.jpg); 
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; }
 }
 
 h1 {
@@ -13,4 +16,8 @@ p {
 
 img{
 	float: right;
+}
+
+section{
+	color: white;
 }

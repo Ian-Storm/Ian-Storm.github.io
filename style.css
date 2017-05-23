@@ -32,53 +32,59 @@ section{
 .block_2{
 	background:url(images/cv.jpg);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_3{
 	background:url(images/winxclub.jpg);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 
 }
 
 .block_4{
 	background:url(images/mastermind.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_5{
 	background:url(images/calculator.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_6{
 	background:url(images/layout.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_7{
 	background:url(images/handy.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_8{
 	background:url(images/recepten.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_9{
 	background:url(images/devloot.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
 }
 
 .block_10{
 	background:url(images/grid.png);
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;  
+}
+
+p {
+	position: absolute;
+	top: 284px;
+	left: 375px;
 }

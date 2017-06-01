@@ -26,7 +26,7 @@ section{
 .block_1{
 	background:url(images/ian.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;  
+	background-size: cover; 
 }
 
 .block_2{
@@ -38,7 +38,6 @@ section{
 .block_3{
 	background:url(images/winxclub.jpg);
 	background-repeat: no-repeat; 
-
 }
 
 .block_4{
@@ -81,10 +80,4 @@ section{
 	background:url(images/grid.png);
 	background-repeat: no-repeat;
 	background-size: cover;  
-}
-
-p {
-	position: absolute;
-	top: 284px;
-	left: 375px;
 }
